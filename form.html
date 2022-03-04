@@ -28,7 +28,7 @@
         <div class="birthday_title">
 
             <h2>Birthday Form</h2>
-            <p>Confirm your birthday and see your Akan name.</p>
+            <p>Confirm your birthday date and day and see your Akan name.</p>
         </div>
 
 
@@ -37,7 +37,7 @@
 
             <form action="/" class="form" id="form">
                 <div class="container-form">
-                    <label for="/">Name</label>
+                    <label for="/">Your Name:</label> <br>
 
                     <input type="text" id="username" placeholder="username" required>
                     <i class="fas fa-check-circle"></i>
@@ -46,15 +46,41 @@
                 </div>
 
 
+                <div class="container-form">
+                    <label for="/">Your Location:</label> <br>
+
+                    <input type="text" id="location" placeholder="Location" required>
+
+                </div>
+
 
                 <div class="container-form">
-                    <label for="/">Gender</label>
+                    <label for="/">Your Birthday Date:</label> <br>
 
-                    <input type="radio" name="gender" value="Male">Male
-                    <input type="radio" name="gender" value="Female">Female
+                    <input type="date" id="date" placeholder="Birthday date" required>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Date</small>
+                </div>
+
+
+
+                <div class="container-form">
+                    <label for="/">Gender:</label> <br>
+
+
+                    <input type="radio" name="gender" value="Male">Male <br>
+                    <input type="radio" name="gender" value="Female">Female <br>
                     <input type="radio" name="gender" value="Female">Female
 
                 </div>
+
+
+                <div class="input-btn">
+                    <input type="button" id="submit-btn" class="submit-btn" value="Submit">
+                    <input type="Reset" id="reset-btn" class="reset-btn" value="Reset">
+                </div>
+
 
             </form>
 
