@@ -34,13 +34,13 @@
 
         <div class="register-container">
 
-            <form action="/form.html" class="form" id="form">
+            <form action="/form.html" name="form" class="form" id="form">
 
                 <div class="container-form">
 
-                    <label>Name;</label> <br>
+                    <label>Name;</label><br>
 
-                    <input type="text" id="username" placeholder="username" required>
+                    <input type="text" id="username" name="username" placeholder="username" required>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
 
@@ -51,7 +51,7 @@
                 <div class="container-form">
 
                     <label>Password;</label><br>
-                    <input type="password" id="password" placeholder="password" required>
+                    <input type="password" name="password" id="password" placeholder="password" required>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
 
@@ -62,15 +62,15 @@
                 <div class="container-form">
 
                     <label for="/">Location;</label> <br>
-                    <input type="text" id="location" placeholder="Location" required>
+                    <input type="text" name="location" id="location" placeholder="Location" required>
 
                 </div>
 
 
 
-                <div class="input-btn ">
-                    <input type="submit" id="submit-btn" class="btn btn-primary" value="Submit">
-                    <!-----><input type="Reset" id="reset-btn " class="btn btn-primary" value="Reset">
+                <div class="input-btn">
+                    <button class="btn btn-primary" id="submit-btn" onsubmit="createAccount()" type="submit">Submit</button>
+                    <input type="Reset" id="reset-btn" class="btn btn-primary" value="Reset">
                 </div>
 
             </form>
@@ -82,7 +82,7 @@
 
 
     <!---Scipt js-->
-    <script src="/JS/script.js "></script>
+    <script src="/JS/script.js"></script>
 
 
 </body>
