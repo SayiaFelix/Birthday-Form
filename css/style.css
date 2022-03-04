@@ -1,16 +1,40 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    width: 100%;
-}
-
-.landing-page {
-    text-align: center;
-    width: 80%;
-    padding-top: 30vh;
-    padding-left: 30vh;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        width: 100%;
+        background-color: lightskyblue;
+        border: 1px solid black;
+        overflow: hidden;
+    }
+    
+    .landing-page {
+        text-align: center;
+        height: 60vh;
+        width: 80%;
+        padding-top: 30vh;
+        padding-left: 30vh;
+    }
+    
+    #header {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    .landing-page:nth-child(2) {
+        font-style: inherit;
+        font-size: 23px;
+    }
+    
+    .landing-page button {
+        border: none;
+        border-radius: 10px;
+        transition: 0.3s;
+        outline: none;
+        width: 180px;
+    }
