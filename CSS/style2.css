@@ -62,11 +62,7 @@ body {
     display: block;
     width: 100%;
     font-family: inherit;
-    color: whitesmoke;
-}
-
-.input-btn {
-    margin-left: 10%;
+    color: black;
 }
 
 .container-form i {
