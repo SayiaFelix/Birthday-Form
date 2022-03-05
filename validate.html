@@ -41,8 +41,7 @@
                     <label>Name;</label><br>
 
                     <input type="text" id="username" name="username" placeholder="username" required>
-                    <i class="fas fa-check-circle"></i>
-                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Insert Name</small>
 
 
                 </div>
@@ -52,8 +51,16 @@
 
                     <label>Password;</label><br>
                     <input type="password" name="password" id="password" placeholder="password" required>
-                    <i class="fas fa-check-circle"></i>
-                    <i class="fas fa-exclamation-circle"></i>
+
+
+
+                </div>
+
+                <div class="container-form">
+
+                    <label>Repeat Password;</label><br>
+                    <input type="password" name="password2" id="password2" placeholder="Repeat password" required>
+
 
 
                 </div>
@@ -68,8 +75,8 @@
 
 
 
-                <div class="input-btn">
-                    <button class="btn btn-primary" id="submit-btn" onsubmit="createAccount()" type="submit">Submit</button>
+                <div class="input-btn ">
+                    <button class="btn btn-primary" id="submit-btn" onsubmit="validateInputs()" type="register">Submit</button>
                     <input type="Reset" id="reset-btn" class="btn btn-primary" value="Reset">
                 </div>
 
@@ -82,7 +89,7 @@
 
 
     <!---Scipt js-->
-    <script src="/JS/script.js"></script>
+    <script src="/JS/script.js "></script>
 
 
 </body>

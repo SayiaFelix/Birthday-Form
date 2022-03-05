@@ -41,12 +41,12 @@ body {
 }
 
 .form {
-    padding: 10px 40px;
+    padding: 2px 35px;
 }
 
 .container-form {
-    margin-bottom: 10px;
-    padding-bottom: 20px;
+    margin-bottom: 7px;
+    padding-bottom: 9px;
     position: relative;
 }
 
@@ -89,4 +89,8 @@ body {
 .container-form.error i.fa-exclamation-circle {
     color: red;
     visibility: visible;
+}
+
+small {
+    visibility: hidden;
 }
