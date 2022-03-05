@@ -37,6 +37,7 @@ body {
 
 .form {
     padding: 10px 40px;
+    font-family: verdana;
 }
 
 .container-form {
@@ -59,14 +60,6 @@ body {
     width: 100%;
     font-family: inherit;
     color: black;
-}
-
-.container-form i {
-    position: absolute;
-    top: 41px;
-    right: 9px;
-    font-size: 22px;
-    visibility: hidden;
 }
 
 .submit-btn {
@@ -102,4 +95,12 @@ body {
 .reset-btn:hover {
     background-color: black;
     transition: 0.2s;
+}
+
+select {
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(12, 173, 226);
+    border-radius: 10px;
 }

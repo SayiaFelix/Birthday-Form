@@ -51,7 +51,7 @@ body {
 }
 
 .container-form label {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .container-form input {
@@ -63,32 +63,6 @@ body {
     width: 100%;
     font-family: inherit;
     color: black;
-}
-
-.container-form i {
-    position: absolute;
-    top: 41px;
-    right: 9px;
-    font-size: 22px;
-    visibility: hidden;
-}
-
-.container-form.success input {
-    border-color: green;
-}
-
-.container-form.success i.fa-check-circle {
-    color: green;
-    visibility: visible;
-}
-
-.container-form.error input {
-    border-color: red;
-}
-
-.container-form.error i.fa-exclamation-circle {
-    color: red;
-    visibility: visible;
 }
 
 small {
