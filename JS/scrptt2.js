@@ -5,12 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const month = document.querySelector('#year').value.trim();
         const year = document.querySelector('#date').value.trim();
         const male = document.querySelector('#male').value;
-        const female = document.querySelector('#female').value;
-        const nd = document.querySelector('#nd').value;
 
-        const maleName = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', ' Kofi', 'Kwame'];
-
-        const femaleName = ['Akosua', 'Adwoa', 'Adwoa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
 
         // form.addEventListener('onclick', (e) => {
