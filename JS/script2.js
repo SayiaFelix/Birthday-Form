@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
         //  e.preventDefault();
         //  })
 
-
         if (form == "") {
             alert('Please enter you BIRTHDAY DATE before submitting.');
             return false;
@@ -47,9 +46,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         } else {
 
-            //  alert('Your Birthday date was Successfull enterred,\n Select your gender and receive your Akan name')
+            alert('Your Birthday date was Successfull enterred,\n Select your gender and receive your Akan name')
             return false
         };
+
 
     }
 
