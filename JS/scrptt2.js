@@ -1,53 +1,55 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('form').onsubmit = () => {
-        const form = document.querySelector('#form').value;
+
         const date = document.querySelector('#date').value.trim();
-        const month = document.querySelector('#year').value.trim();
-        const year = document.querySelector('#date').value.trim();
+        const month = document.querySelector('#month').value.trim();
+        const year = document.querySelector('#year').value;
+
+
+        const form = document.querySelector('#form').value;
         const male = document.querySelector('#male').value;
-
-
+        const submit = document.querySelector('#submit-btn').value;
 
         // form.addEventListener('onclick', (e) => {
         //  e.preventDefault();
         //  })
 
-        if (form == "") {
-            alert('Please enter you BIRTHDAY DATE before submitting.');
-            return false;
+        if (submit === "") {
+            alert('Enter your Details')
         };
-
 
 
         if (date == "" || date <= 0 || date > 31) {
 
-            alert('Your date is invalid,\n please enter the valid date')
+            alert('Your date is invalid,\n please enter the valid date');
             return false;
 
         };
 
 
-        if (month == "" || month <= 0 || male > 31) {
+        if (month <= 0 || month > 12) {
+            alert('Your month is invalid,\n please enter the valid month');
+            return false
 
-            alert('Your Month is invalid,\n please enter the valid Month')
-            return false;
         };
 
 
-        if (year <= 1984 || year > 2022) {
-
-            alert('Your Year is invalid,\n please enter the valid Year')
+        if (year <= 1984 || year > 2020) {
+            alert('Your year is invalid')
             return false;
 
         } else {
-
-            alert('Your Birthday date was Successfull enterred,\n Select your gender and receive your Akan name')
-            return false
+            alert('Enter your Birthday Details')
+            return false;
         };
 
 
-    }
 
+        //  if (submit !== "") {
+        //  alert('Your Akan Name is,');
+        //   return false;
+        // }
+    }
 });
 
 //document.addEventListener('DOMContentLoaded', function() {
