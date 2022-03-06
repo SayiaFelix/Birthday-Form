@@ -37,17 +37,16 @@
 
             <div class="container-form">
                 <label for="/">Your Birthday Date:</label> <br>
-                <div class="birth">
-                    <input type="tel" maxlength="2" placeholder="Date" id="day">
-                    <input type="tel" maxlength="2" placeholder="Month" id="month">
-                    <input type="tel" maxlength="4" placeholder="Year" id="year">
 
-                </div>
-                <br>
-                <br>
+                <!--<div class="birth">
+                <input type="tel" maxlength="2" placeholder="Date" id="day">
+                <input type="tel" maxlength="2" placeholder="Month" id="month">
+                <input type="tel" maxlength="4" placeholder="Year" id="year">
 
-
-
+            </div>
+            <br>
+            <br>
+        -->
                 <select id="day" name="Date" required>
 
 
@@ -90,12 +89,12 @@
                 </select>
 
 
-                <select id="month" name="month" required>
+                <select id="mont" name="month">
 
 
                     <option value="Month">Month</option>
 
-                    <option value="other">0</option>
+
                     <option value="January">1</option>
                     <option value="February">2</option>
                     <option value="March">3</option>
@@ -108,7 +107,6 @@
                     <option value="October">10</option>
                     <option value="November">11</option>
                     <option value="December">12</option>
-                    <option value="others">13</option>
 
                 </select>
 
@@ -159,7 +157,7 @@
 
                 </select>
 
-                <!--<input type="date " id="date " placeholder="Birthday date " required>--->
+
             </div>
 
             <div class="container-form">
@@ -172,7 +170,8 @@
             </div>
 
             <div class="input-btn">
-                <button type="submit" id="submit-btn" onclick=validateForm() class="submit-btn" value="Submit">Submit</button>
+                <button type="submit" id="submit-btn" onclick=validateForm() class="submit-btn" value="Submit">Date Submit</button>
+                <button type="submit" id="submit-btn" onclick=newFunction() class="submit-btn" value="Submit">Gender Submit</button>
 
             </div>
             <hr>

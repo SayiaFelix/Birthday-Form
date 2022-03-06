@@ -13,7 +13,8 @@
 * easy-to-understand
 * format
 {Click on the live link below and it will lead you to Akan Birthday Form.Buttons are workable and they will help you to get information you want immediately.}
-
+### BDD 
+You will be able to receive your Akan name
 ## Known Bugs
 {In this project their still some space for improving in any styling and scripting. Feel free to fork the repo for improvement.}
 
