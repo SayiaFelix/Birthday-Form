@@ -11,10 +11,13 @@
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
 
     <!---Style css-->
-    <link rel="stylesheet" type="text/css" href="style33.css">
+    <link rel="stylesheet" type="text/css" href="./style33.css">
 
     <!---Fontawesome-->
     <script src="https://kit.fontawesome.com/0aff1cb243.js" crossorigin="anonymous"></script>
+
+
+
 
 
 
@@ -38,15 +41,7 @@
             <div class="container-form">
                 <label for="/">Your Birthday Date:</label> <br>
 
-                <!--<div class="birth">
-                <input type="tel" maxlength="2" placeholder="Date" id="day">
-                <input type="tel" maxlength="2" placeholder="Month" id="month">
-                <input type="tel" maxlength="4" placeholder="Year" id="year">
 
-            </div>
-            <br>
-            <br>
-        -->
                 <select id="day" name="Date" required>
 
 
@@ -163,7 +158,7 @@
                 <label for="/">Gender:</label> <br>
 
                 <select name="gender" id="gender">
-                   <option value="gender">Gender</option>
+                   <option value="gender">Select Gender</option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                 </select>
@@ -176,24 +171,20 @@
             <br>
             <br>
             <div class="input-btn">
-                <button type="submit" id="submit-btn" onclick=validateForm() class="submit-btn" value="Submit">Submit</button>
-
+                <button type="button" id="submit-btn" value="Submit"> Submit </button>
+                <!-- <input type="button" id="submit-btn" class="btn btn-primary btn-lg" value="Submit" /> -->
             </div>
 
             <hr>
             <p id="result"></p>
 
 
-
-
         </form>
-
-
-
     </div>
 
+
     <!--Script js-->
-    <script src="/index.js"></script>
+    <script src="./index.js"></script>
 
 </body>
 
