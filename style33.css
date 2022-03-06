@@ -60,7 +60,7 @@ body {
     color: black;
 }
 
-.submit-btn {
+#submit-btn {
     background-color: rgb(14, 182, 238);
     color: #ffffff;
     width: 100%;
@@ -75,7 +75,7 @@ body {
     margin-top: 5px;
 }
 
-.submit-btn:hover {
+#submit-btn:hover {
     background-color: black;
     transition: 0.2s;
     color: rgb(12, 173, 226);
