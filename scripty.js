@@ -13,20 +13,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
             alert('Your date is invalid,\n please enter the valid date');
             return false;
-
-        } else {
-
-            //} else {
-            // return false;
-        };
+        }
 
         if (male !== "" || female !== "") {
             alert('Your Akan name is,Koffi')
             return false;
         }
     };
-
-
 
 
 
