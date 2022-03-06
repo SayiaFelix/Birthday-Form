@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         if (male !== "" || female !== "") {
-            alert('Your Akan name is,')
+            alert('Your Akan name is,Koffi')
             return false
         }
     };
