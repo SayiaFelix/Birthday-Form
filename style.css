@@ -14,10 +14,9 @@
     
     .landing-page {
         text-align: center;
-        height: 60vh;
         width: 80%;
-        padding-top: 30vh;
-        padding-left: 30vh;
+        padding-top: 3vh;
+        margin-left: 10%;
     }
     
     #header {
@@ -26,9 +25,53 @@
         font-size: 42px;
     }
     
-    .landing-page:nth-child(2) {
+    .akan {
         font-style: inherit;
-        font-size: 23px;
+        font-size: 17px;
+    }
+    
+    .create {
+        font-size: 25px;
+        color: #000000;
+    }
+    
+    .register-container {
+        width: 70%;
+        background-color: #ffffff;
+        height: 66vh;
+        margin-left: 15%;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 2px 2px 15px #000000;
+    }
+    
+    .form {
+        padding: 12px 3px;
+        display: block;
+        margin-left: 20px;
+    }
+    
+    .container-form {
+        padding-bottom: 5px;
+        position: relative;
+    }
+    
+    .container-form label {
+        font-size: 17px;
+        color: rgb(39, 14, 14);
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .container-form input {
+        border: 2px solid rgb(238, 232, 232);
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 5px;
+        display: block;
+        width: 90%;
+        font-family: inherit;
+        color: black;
     }
     
     .landing-page button {

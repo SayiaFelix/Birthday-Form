@@ -78,6 +78,7 @@ body {
 .submit-btn:hover {
     background-color: black;
     transition: 0.2s;
+    color: rgb(12, 173, 226);
 }
 
 select {
@@ -86,7 +87,16 @@ select {
     font-weight: 700;
     background-color: rgb(12, 173, 226);
     border-radius: 10px;
-    margin-left: 60px;
+    margin-left: 10px;
+    width: 30%;
+}
+
+#gender {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    background-color: wheat;
+    border: 1px solid #ffffff;
 }
 
 .birth {

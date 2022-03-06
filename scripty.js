@@ -2,8 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('form').onsubmit = function validateForm() {
 
         const day = document.querySelector('#day').value;
-        const mont = document.querySelector('#mont').value;
-        const year = document.querySelector('#year').value;
 
         const male = document.querySelector('#male').value;
         const female = document.querySelector('#female').value;
@@ -24,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (male !== "" || female !== "") {
             alert('Your Akan name is,Koffi')
-            return false
+            return false;
         }
     };
 
