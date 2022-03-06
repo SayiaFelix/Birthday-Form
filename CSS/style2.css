@@ -38,6 +38,7 @@ body {
     text-decoration: underline;
     text-decoration-color: rgb(238, 232, 232);
     text-decoration-style: double;
+    color: #000000;
 }
 
 .form {
@@ -51,7 +52,9 @@ body {
 }
 
 .container-form label {
-    font-size: 19px;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
 }
 
 .container-form input {
