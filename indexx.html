@@ -40,6 +40,11 @@
 
             <div class="container-form">
                 <label for="/">Your Birthday Date:</label> <br>
+
+                <input type="date" class="form-control form-control-lg" id="date" />
+
+
+                <!-- 
                 <select id="day" name="Date" required>
 
 
@@ -147,7 +152,7 @@
                     <option value="1985">1985</option>
                     <option value="1984">1984</option>
 
-                </select>
+                </select> -->
 
 
             </div>
@@ -169,8 +174,8 @@
             <br>
             <br>
             <div class="input-btn">
-                <button type="button" id="submit-btn" value="Submit"> Submit </button>
-                <!-- <input type="button" id="submit-btn" class="btn btn-primary btn-lg" value="Submit" /> -->
+                <button type="button" id="submit-btn" onclick="validateDate()" value="Submit"> Submit </button>
+
             </div>
 
             <hr>
