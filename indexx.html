@@ -41,7 +41,10 @@
             <div class="container-form">
                 <label for="/">Your Birthday Date:</label> <br>
 
+                <input type="date" class="form-control form-control-lg" id="date" />
 
+
+                <!-- 
                 <select id="day" name="Date" required>
 
 
@@ -149,7 +152,7 @@
                     <option value="1985">1985</option>
                     <option value="1984">1984</option>
 
-                </select>
+                </select> -->
 
 
             </div>
@@ -159,20 +162,17 @@
 
                 <select name="gender" id="gender">
                    <option value="gender">Select Gender</option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
+                    <option value="Male" id="male">Male</option>
+                    <option value="Female" id="female">Female</option>
                 </select>
-
-                <!-- <input class="input" type="radio" name="gender" id="male" value="Male">Male <br>
-                <input class="input" type="radio" name="gender" id="female" value="Female">Female <br> -->
 
 
             </div>
             <br>
             <br>
             <div class="input-btn">
-                <button type="button" id="submit-btn" value="Submit"> Submit </button>
-                <!-- <input type="button" id="submit-btn" class="btn btn-primary btn-lg" value="Submit" /> -->
+                <button type="button" id="submit-btn" onclick="validateDate()" value="Submit"> Submit </button>
+
             </div>
 
             <hr>
